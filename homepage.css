@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    /* border: 1px solid red; */
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.hero-section {
+    margin: 2rem 0;
+    padding: 0 1rem;
+    font-family: 'Sora', sans-serif;
+}
+
+.hero-section-content > h1 {
+    margin: 1rem 0;
+}
+
+.hero-section-content > p {
+    margin-bottom: 1rem;
+}
+
+.login-btn {
+    background: #3B82FC;
+    color: aliceblue;
+    padding: .7rem 3rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.hero-section-content {
+    margin-bottom: 2rem;
+}
+
+.footer-section{
+    padding: 0 1rem;
+    font-family: 'Sora', sans-serif;
+}
+
+.footer-section-content > h1 {
+    margin: 1rem 0;
+}
+
+.footer-section-content > p {
+    margin: 1rem 0;
+}
+
+.footer-section-content {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 800px) {
+
+    .hero-section {
+        margin-bottom: 4rem;
+    }
+    .hero-section, .footer-section {
+        display: flex;
+        align-items: center;
+        gap: 2%;
+        max-width: 1000px;
+    }
+
+    .hero-section-content, .footer-section-content {
+        flex-basis: 60%;
+    }
+
+    .img-container {
+        flex-basis: 40%;
+    }
+
+
+
+
+}

@@ -1,0 +1,19 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.row1, .row2 {
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+    border: 1px solid red;
+
+}
+
+.row1 {
+    margin-bottom: auto;
+}
