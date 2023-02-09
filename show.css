@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700&display=swap');
+
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+}
+
+.show {
+    font-family: 'Sora', sans-serif;
 }
 
 .row1, .row2 {
@@ -9,11 +16,33 @@
     width: 80%;
     display: flex;
     justify-content: space-between;
-    
-    border: 1px solid red;
+    max-width: 700px;
 
 }
 
 .row1 {
     margin-bottom: auto;
 }
+
+.row1 >div> p ,.row2 >div> p {
+   margin-top: .6rem;
+}
+
+table, th, td {
+    margin: 0 auto ;
+    width: 80%;
+    max-width: 700px;
+    padding: .7rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+ .payment-details {
+    width: 80%;
+    margin: 1rem auto;
+    max-width: 700px;
+ } 
+ 
+ .payment-details > h5 {
+    margin-top: .6rem;
+ }
